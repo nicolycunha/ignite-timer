@@ -5,15 +5,17 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "tsc -b && vite build",    
+    "build": "tsc -b && vite build",
     "lint": "eslint src/**/*.{ts,tsx}",
     "lint:fix": "eslint --fix src/**/*.{ts,tsx}",
     "preview": "vite preview"
   },
   "dependencies": {
     "@types/styled-components": "^5.1.34",
+    "phosphor-react": "^1.4.1",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
+    "react-router-dom": "^7.1.5",
     "styled-components": "^6.1.15"
   },
   "devDependencies": {
